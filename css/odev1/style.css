@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgb(42, 51, 51);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ortala {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    height: 100vh auto;
+    background-color: rgb(26, 25, 25);
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+
+.resimler > img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+.orta {
+    padding: 40px 60px 0 60px;
+    text-align: justify;
+}
+
+.baslik {
+    padding: 30px;
+    margin: 0;
+}
+
+ul {
+    background-color: slategray;
+    margin: 0;
+    padding: 5px;
+}
+
+ol {
+    display: inline-block;
+    font-size: 30px;
+}
+
+ul > li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul > li:hover {
+    color: black;
+}
