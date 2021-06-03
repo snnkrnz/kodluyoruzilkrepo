@@ -29,10 +29,11 @@ function satirlar() {
   var inputValue = document.getElementById("giris").value;
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
+
   if (inputValue === '') {
-    alert("Boş bırakılamaz");
+    $('#basladitostu').toast('show')
   } else {
-    document.getElementById("myUL").appendChild(li);
+    document.getElementById("uleule").appendChild(li);
   }
   document.getElementById("giris").value = "";
 

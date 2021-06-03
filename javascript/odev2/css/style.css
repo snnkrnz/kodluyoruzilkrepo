@@ -17,7 +17,7 @@
 
   ul {
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 0 !important;
   }
   
   ul li {
@@ -125,4 +125,10 @@
   
   .ekle:hover {
     background-color: #bbb;
+  }
+
+  .tostpos {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
